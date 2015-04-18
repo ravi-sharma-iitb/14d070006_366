@@ -1,0 +1,574 @@
+# depslib dependency file v1.0
+1426283477 source:c:\users\microsoft\desktop\kjxfd\main.cpp
+	<windows.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+
+1301111162 c:\program files\codeblocks\mingw\include\windows.h
+	<winresrc.h>
+	<stdarg.h>
+	<windef.h>
+	<wincon.h>
+	<winbase.h>
+	<wingdi.h>
+	<winuser.h>
+	<winnls.h>
+	<winver.h>
+	<winnetwk.h>
+	<winreg.h>
+	<winsvc.h>
+	<cderr.h>
+	<dde.h>
+	<ddeml.h>
+	<dlgs.h>
+	<imm.h>
+	<lzexpand.h>
+	<mmsystem.h>
+	<nb30.h>
+	<rpc.h>
+	<shellapi.h>
+	<winperf.h>
+	<commdlg.h>
+	<winspool.h>
+	<winsock2.h>
+	<winsock.h>
+	<ole2.h>
+
+1301111162 c:\program files\codeblocks\mingw\include\winresrc.h
+	<winuser.h>
+	<winnt.h>
+	<winver.h>
+	<dde.h>
+	<dlgs.h>
+	<commctrl.h>
+
+1301111164 c:\program files\codeblocks\mingw\include\winuser.h
+
+1301111162 c:\program files\codeblocks\mingw\include\winnt.h
+	<winerror.h>
+	<string.h>
+	<basetsd.h>
+	<pshpack4.h>
+	<poppack.h>
+
+1301111162 c:\program files\codeblocks\mingw\include\winerror.h
+
+1341010376 c:\program files\codeblocks\mingw\include\string.h
+	<_mingw.h>
+	<stddef.h>
+
+1341010370 c:\program files\codeblocks\mingw\include\_mingw.h
+
+1301111148 c:\program files\codeblocks\mingw\include\basetsd.h
+
+1301111156 c:\program files\codeblocks\mingw\include\pshpack4.h
+
+1301111156 c:\program files\codeblocks\mingw\include\poppack.h
+
+1301111164 c:\program files\codeblocks\mingw\include\winver.h
+
+1301111148 c:\program files\codeblocks\mingw\include\dde.h
+
+1301111150 c:\program files\codeblocks\mingw\include\dlgs.h
+
+1301111148 c:\program files\codeblocks\mingw\include\commctrl.h
+	<prsht.h>
+
+1301111156 c:\program files\codeblocks\mingw\include\prsht.h
+
+1301111162 c:\program files\codeblocks\mingw\include\windef.h
+	<winnt.h>
+
+1301111162 c:\program files\codeblocks\mingw\include\wincon.h
+
+1301111160 c:\program files\codeblocks\mingw\include\winbase.h
+
+1301111162 c:\program files\codeblocks\mingw\include\wingdi.h
+
+1301111162 c:\program files\codeblocks\mingw\include\winnls.h
+
+1301111162 c:\program files\codeblocks\mingw\include\winnetwk.h
+
+1301111162 c:\program files\codeblocks\mingw\include\winreg.h
+
+1301111164 c:\program files\codeblocks\mingw\include\winsvc.h
+
+1301111148 c:\program files\codeblocks\mingw\include\cderr.h
+
+1301111148 c:\program files\codeblocks\mingw\include\ddeml.h
+
+1301111150 c:\program files\codeblocks\mingw\include\imm.h
+
+1301111154 c:\program files\codeblocks\mingw\include\lzexpand.h
+
+1301111154 c:\program files\codeblocks\mingw\include\mmsystem.h
+
+1301111154 c:\program files\codeblocks\mingw\include\nb30.h
+
+1301111158 c:\program files\codeblocks\mingw\include\rpc.h
+	<windows.h>
+	<rpcdce.h>
+	<rpcnsi.h>
+	<rpcnterr.h>
+	<winerror.h>
+	<excpt.h>
+
+1301111158 c:\program files\codeblocks\mingw\include\rpcdce.h
+	<basetyps.h>
+	<rpcdcep.h>
+
+1301111148 c:\program files\codeblocks\mingw\include\basetyps.h
+
+1301111158 c:\program files\codeblocks\mingw\include\rpcdcep.h
+
+1301111158 c:\program files\codeblocks\mingw\include\rpcnsi.h
+
+1301111158 c:\program files\codeblocks\mingw\include\rpcnterr.h
+
+1341010372 c:\program files\codeblocks\mingw\include\excpt.h
+	<_mingw.h>
+	<windef.h>
+
+1301111160 c:\program files\codeblocks\mingw\include\shellapi.h
+	<pshpack2.h>
+	<poppack.h>
+
+1301111156 c:\program files\codeblocks\mingw\include\pshpack2.h
+
+1301111162 c:\program files\codeblocks\mingw\include\winperf.h
+
+1301111148 c:\program files\codeblocks\mingw\include\commdlg.h
+	<unknwn.h>
+	<prsht.h>
+
+1301111160 c:\program files\codeblocks\mingw\include\unknwn.h
+	<windows.h>
+	<objfwd.h>
+	<wtypes.h>
+
+1301111156 c:\program files\codeblocks\mingw\include\objfwd.h
+	<basetyps.h>
+
+1301111164 c:\program files\codeblocks\mingw\include\wtypes.h
+	<rpc.h>
+	<rpcndr.h>
+
+1301111158 c:\program files\codeblocks\mingw\include\rpcndr.h
+	<rpcnsip.h>
+	<objfwd.h>
+
+1301111158 c:\program files\codeblocks\mingw\include\rpcnsip.h
+
+1301111162 c:\program files\codeblocks\mingw\include\winspool.h
+
+1301111162 c:\program files\codeblocks\mingw\include\winsock2.h
+	<windows.h>
+
+1301111162 c:\program files\codeblocks\mingw\include\winsock.h
+	<windows.h>
+	<mswsock.h>
+
+1301111154 c:\program files\codeblocks\mingw\include\mswsock.h
+
+1301111156 c:\program files\codeblocks\mingw\include\ole2.h
+	<winerror.h>
+	<objbase.h>
+	<olectlid.h>
+	<oleauto.h>
+	<oleidl.h>
+
+1301111154 c:\program files\codeblocks\mingw\include\objbase.h
+	<rpc.h>
+	<rpcndr.h>
+	<stdlib.h>
+	<basetyps.h>
+	<wtypes.h>
+	<unknwn.h>
+	<objidl.h>
+	<cguid.h>
+
+1341010376 c:\program files\codeblocks\mingw\include\stdlib.h
+	<_mingw.h>
+	<stddef.h>
+
+1301111156 c:\program files\codeblocks\mingw\include\objidl.h
+	<objfwd.h>
+
+1301111148 c:\program files\codeblocks\mingw\include\cguid.h
+
+1301111156 c:\program files\codeblocks\mingw\include\olectlid.h
+
+1301111156 c:\program files\codeblocks\mingw\include\oleauto.h
+	<oaidl.h>
+
+1301111154 c:\program files\codeblocks\mingw\include\oaidl.h
+	<windows.h>
+	<ole2.h>
+
+1301111156 c:\program files\codeblocks\mingw\include\oleidl.h
+	<objfwd.h>
+
+976647172 c:\program files\codeblocks\mingw\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1301111164 c:\program files\codeblocks\mingw\include\gl\gl.h
+
+1301111164 c:\program files\codeblocks\mingw\include\gl\glu.h
+	<stddef.h>
+	<GL/gl.h>
+
+1426336339 source:c:\users\microsoft\desktop\kjxfd\a.cpp
+	<iostream>
+	<conio.h>
+	<windows.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	"main.cpp"
+	<stdlib.h>
+	<time.h>
+
+1426283477 c:\users\microsoft\desktop\kjxfd\main.cpp
+	<windows.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+
+1341010370 c:\program files\codeblocks\mingw\include\conio.h
+	<_mingw.h>
+
+1341010376 c:\program files\codeblocks\mingw\include\time.h
+	<_mingw.h>
+	<stddef.h>
+
+1426366460 source:c:\users\microsoft\desktop\main project\a.cpp
+	<iostream>
+	<conio.h>
+	<windows.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<time.h>
+
+1426349111 c:\users\microsoft\desktop\main project\main.cpp
+	<windows.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+
+1426366460 source:c:\users\microsoft\desktop\main project\main.cpp
+	<windows.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<time.h>
+	"fin.h"
+
+1426346734 source:c:\users\microsoft\desktop\main project\main1.cpp
+
+1426347295 c:\users\microsoft\desktop\main project\a.h
+
+1426364577 c:\users\microsoft\desktop\main project\a.cpp
+	<iostream>
+	<conio.h>
+	<windows.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<time.h>
+
+1426366917 c:\users\microsoft\desktop\main project\fin.h
+	<iostream>
+	<conio.h>
+	<windows.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<time.h>
+
+1426366460 source:c:\users\microsoft\dropbox\main project2\a.cpp
+	<iostream>
+	<conio.h>
+	<windows.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<time.h>
+
+1426366460 source:c:\users\microsoft\dropbox\main project2\main.cpp
+	<windows.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<time.h>
+	"fin.h"
+
+1426366917 c:\users\microsoft\dropbox\main project2\fin.h
+	<iostream>
+	<conio.h>
+	<windows.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<time.h>
+
+1426366460 source:c:\users\microsoft\desktop\main project2\a.cpp
+	<iostream>
+	<conio.h>
+	<windows.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<time.h>
+
+1426713435 source:c:\users\microsoft\desktop\main project2\main.cpp
+	<windows.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<time.h>
+	"fin.h"
+	"projectile.h"
+
+1426707363 c:\users\microsoft\desktop\main project2\fin.h
+	<iostream>
+	<conio.h>
+	<windows.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<time.h>
+
+1426535392 source:c:\users\microsoft\desktop\pro_test.cpp
+	<windows.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+
+1426715398 c:\users\microsoft\desktop\main project2\projectile.h
+	"fin.h"
+	<math.h>
+
+1341010374 c:\program files\codeblocks\mingw\include\math.h
+	<_mingw.h>
+
+1426975502 source:c:\users\microsoft\desktop\main project3\main.cpp
+	<windows.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<time.h>
+	"fin.h"
+	"projectile.h"
+	"tanks.h"
+
+1426892856 c:\users\microsoft\desktop\main project3\fin.h
+	<iostream>
+	<conio.h>
+	<windows.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<time.h>
+
+1426980204 c:\users\microsoft\desktop\main project3\projectile.h
+	"fin.h"
+	<math.h>
+	"tanks.h"
+
+1426977431 c:\users\microsoft\desktop\main project3\tanks.h
+	"projectile.h"
+
+1427881770 source:c:\users\microsoft\desktop\main project 4 prototype\main.cpp
+	<windows.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<time.h>
+	"fin.h"
+	"projectile.h"
+	"tanks.h"
+
+1427654602 c:\users\microsoft\desktop\main project 4 prototype\fin.h
+	<iostream>
+	<conio.h>
+	<windows.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<time.h>
+
+1427882667 c:\users\microsoft\desktop\main project 4 prototype\projectile.h
+	"fin.h"
+	<math.h>
+	"tanks.h"
+	<ctype.h>
+
+1426977431 c:\users\microsoft\desktop\main project 4 prototype\tanks.h
+	"projectile.h"
+
+1341010370 c:\program files\codeblocks\mingw\include\ctype.h
+	<_mingw.h>
+	<stddef.h>
+
+1428352644 source:c:\users\microsoft\desktop\final prototype\main.cpp
+	<windows.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<time.h>
+	"fin.h"
+	"projectile.h"
+	"tanks.h"
+
+1428353069 c:\users\microsoft\desktop\final prototype\fin.h
+	<iostream>
+	<conio.h>
+	<windows.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<time.h>
+
+1428352644 c:\users\microsoft\desktop\final prototype\projectile.h
+	"fin.h"
+	<math.h>
+	"tanks.h"
+	<ctype.h>
+
+1428353027 c:\users\microsoft\desktop\final prototype\tanks.h
+	"projectile.h"
+
+1428352644 source:c:\users\ravi sharma\desktop\7 april\main.cpp
+	<windows.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<time.h>
+	"fin.h"
+	"projectile.h"
+	"tanks.h"
+
+1428560186 c:\users\ravi sharma\desktop\7 april\fin.h
+	<iostream>
+	<conio.h>
+	<windows.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<time.h>
+
+1428352644 c:\users\ravi sharma\desktop\7 april\projectile.h
+	"fin.h"
+	<math.h>
+	"tanks.h"
+	<ctype.h>
+
+1428353027 c:\users\ravi sharma\desktop\7 april\tanks.h
+	"projectile.h"
+
+1428560350 source:c:\users\microsoft\desktop\9 april\7 april\main.cpp
+	<windows.h>
+	<GLUT/glut.h>
+	<stdlib.h>
+	<time.h>
+	"fin.h"
+	"projectile.h"
+	"tanks.h"
+
+1428564440 c:\users\microsoft\desktop\9 april\7 april\fin.h
+	<iostream>
+	<conio.h>
+	<windows.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<time.h>
+
+1428564440 c:\users\microsoft\desktop\9 april\7 april\projectile.h
+	"fin.h"
+	<math.h>
+	"tanks.h"
+	<ctype.h>
+	<string.h>
+	<string>
+	<sstream>
+
+1428353027 c:\users\microsoft\desktop\9 april\7 april\tanks.h
+	"projectile.h"
+
+1429050006 source:c:\users\microsoft\desktop\9 april-2\7 april\main.cpp
+	<windows.h>
+	<GLUT/glut.h>
+	<stdlib.h>
+	<time.h>
+	"fin.h"
+	"projectile.h"
+	"tanks.h"
+
+1429050925 c:\users\microsoft\desktop\9 april-2\7 april\fin.h
+	<iostream>
+	<conio.h>
+	<windows.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<time.h>
+	<sstream>
+	<string>
+	"datatypes.h"
+
+1429051468 c:\users\microsoft\desktop\9 april-2\7 april\projectile.h
+	"fin.h"
+	<math.h>
+	"tanks.h"
+	<ctype.h>
+	"datatypes.h"
+
+1429048331 c:\users\microsoft\desktop\9 april-2\7 april\tanks.h
+	"projectile.h"
+	"datatypes.h"
+
+1429047236 c:\users\microsoft\desktop\9 april-2\7 april\time.h
+	<_mingw.h>
+	<stddef.h>
+	"projectile.h"
+
+1429049702 c:\users\microsoft\desktop\9 april-2\7 april\datatypes.h
+
+1429128654 source:c:\users\microsoft\desktop\9 april-3\7 april\main.cpp
+	<windows.h>
+	<GLUT/glut.h>
+	<stdlib.h>
+	<time.h>
+	"fin.h"
+	"projectile.h"
+	"tanks.h"
+
+1429127761 c:\users\microsoft\desktop\9 april-3\7 april\fin.h
+	<iostream>
+	<conio.h>
+	<windows.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<time.h>
+	<sstream>
+	<string>
+	"datatypes.h"
+
+1429126098 c:\users\microsoft\desktop\9 april-3\7 april\datatypes.h
+
+1429128389 c:\users\microsoft\desktop\9 april-3\7 april\projectile.h
+	"fin.h"
+	<math.h>
+	"tanks.h"
+	<ctype.h>
+	"datatypes.h"
+
+1429048331 c:\users\microsoft\desktop\9 april-3\7 april\tanks.h
+	"projectile.h"
+	"datatypes.h"
+

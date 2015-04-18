@@ -13,16 +13,16 @@
 #include<sstream>
 #include<string>
 #include"datatypes.h"
-//#include"tanks.h"
+
 using namespace std;
 
-//tank t3;
+
 bool GameStart=0;
 float xterrain[21]= {-1,-.9,-.8,-.7,-.6,-.5,-.4,-.3,-.2,-.1,0,.1,.2,.3,.4,.5,.6,.7,.8,.9,1};
 float yterrain[21];
 int i,i1;
 
-//char *scoreA="0",*scoreB="0";
+
 
 bool InitTerrain=1;
 void *font = GLUT_BITMAP_TIMES_ROMAN_24;
@@ -54,8 +54,7 @@ void output(float x, float y, char *string)
 void output2(float x, float y, char *string)
 {
     int len, i;
-    //std::cout<<"arbit "<<string;
-   // selectFont(0);
+
     glRasterPos2f(x, y);
     len = (int) strlen(string);
     for (i = 0; i < len; i++)
@@ -67,7 +66,7 @@ void output2(float x, float y, char *string)
 void output1(float x, float y, char *string)
 {
     int len, i;
-    //std::cout<<"arbit2 "<<string;
+
     glRasterPos2f(x, y);
     len = (int) strlen(string);
     for (i = 0; i < len; i++)
@@ -214,8 +213,10 @@ static void terrain_polygon(float x[],float y[])
     glColor3d(1,1,1);
     output(-.9, .8, "PLAYER 1");
     output(.8, .8, "PLAYER 2");
+    output(-.62,-.968,"POWER");
+    output(0.38,-.968,"ANGLE");
 
-  // std::cout<<"score b "<<scoreB<<endl;
+
     glutSwapBuffers();
     glFlush();
     if(InitTerrain)
@@ -223,55 +224,7 @@ static void terrain_polygon(float x[],float y[])
         InitTerrain=0;
     }
 }
-/*
-void score_print3()
-{
-    output(-.88, 0.7, scoreA);
-  // std::cout<<"score a "<<scoreA<<endl;
 
-}
-void score_print4()
-{
-    output(0.88, 0.7, scoreB);
-}
-
-
-
-static void score_print1(int score11)
-{
-            stringstream str1;
-            str1<<score11;
-            string temp_str1=str1.str();
-            scoreA=(char*)temp_str1.c_str();
-            std::cout<<"score of A is "<<scoreA<<std::endl;
-
-          // output4(-.88, 0.7, scoreA);
-}
-
-static void score_print2(int score22)
-{
-
-            stringstream str2;
-            str2<<score22;
-            string temp_str2=str2.str();
-            scoreB=(char*)temp_str2.c_str();
-            std::cout<<"score of B is "<<scoreB<<std::endl;
-
-          // output5(0.88, 0.7, scoreB);
-}
-*/
-
-/*
-static void resize(int width, int height)  //look for it
-{
-    const float ar = (float) width / (float) height;
-    glViewport(0, 0, width, height);
-    glMatrixMode(GL_PROJECTION);
-    glLoadIdentity();
-    gluOrtho2D(-ar, ar, -1.0, 1.0);
-    glMatrixMode(GL_MODELVIEW);
-    glLoadIdentity() ;
-}*/
 
 void HomeScreen()
 {
@@ -291,6 +244,11 @@ void HomeScreen()
     glEnd();
     glColor3f(0,0,0);
     output(-0.055,-0.017,"START");/////////////////////////////////ravi
+    glColor3f(1,1,1);
+    output(-0.055,-0.117,"INSTRUCTIONS:");
+    output(-0.055,-0.217,"W/S:-angle increase/decrease(0-180)");
+    output(-0.055,-0.317,"J/L:-tank movement(j=left,l=right)");
+    output(-0.055,-0.417,"D/A:-power increase/decrease(0-100)");
     glutSwapBuffers();
     glFlush();
     glutPostRedisplay();
@@ -300,7 +258,16 @@ void GameOverScreen()
     output(-0.055,-0.017+0.1,"Game Over");/////////////////////////////////ravi
 
     glColor3f(1,1,1);
-    output(-0.055,-0.017,"Click Anywhere to Exit");
+    output(-0.055,-0.1,"Click Anywhere to Exit");
+    if (score11>score22)
+        output(-.055,-0.017,"WINNER IS PLAYER 1");
+
+        else if (score11<score22)
+        output(-.055,-0.017,"WINNER IS PLAYER 2");
+
+        else
+            output(-.055,-0.017,"MATCH DRAW");
+
     glutSwapBuffers();
     glFlush();
     glutPostRedisplay();

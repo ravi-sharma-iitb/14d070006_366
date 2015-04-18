@@ -32,8 +32,7 @@ public:
         glVertex2d(xterrain[position]-0.025,yterrain[position]-0.44);
         glEnd();
         glColor3d(0,0,0);
-        //glutSwapBuffers();
-        //glFlush();
+
         glBegin(GL_POLYGON);
          glVertex2d(xterrain[position]+0.04,yterrain[position]-0.442);
          glVertex2d(xterrain[position]-0.04,yterrain[position]-0.442);

@@ -28,3 +28,4 @@ go to bin/Debug/kjxfd.exe to run.
 Then use any IDE which supports OpenGl and C++ source.
 Open the project and click on file kjxfd.cbp to open the project on the required IDE.
 GIT REPO-https://github.com/ravi-sharma-iitb/14d070006_366.git
+or  git@git.cse.iitb.ac.in:14D070055/14d070006_366.git
